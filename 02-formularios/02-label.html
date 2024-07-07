@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenas prácticas de accesibilidad en los formularios</title>
+</head>
+
+<body>
+    <form action="">
+
+
+        <fieldset>
+
+            <legend>Tamaño de pizza</legend>
+            <ul type="none">
+                <li>
+                    <label for="pequeno">
+                        <input type="radio" name="pizza" id="pequeno">Pequeño
+
+                    </label>
+                </li>
+                <li>
+                    <label for="pequeno">
+                        <input type="radio" name="pizza" id="mediano">Mediano
+                    </label>
+
+                </li>
+                <li>
+                    <label for="pequeno">
+                        <input type="radio" name="pizza" id="grande">Grande
+                    </label>
+                </li>
+            </ul>
+
+            <h2>Asociación explícita</h2>
+
+            <label for="nombre">NOmbre: </label>
+            <input type="text" id="nombre">
+            <h1>Asociación Implícita</h1>
+
+            <label>NOmbre: <input type="text" id="nombre"></label>
+
+            <h2>sin asociacion</h2>
+            <label>NOmbre: </label>
+            <input type="text" id="nombre">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
