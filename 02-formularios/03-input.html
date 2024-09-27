@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campos de entrada de texto</title>
+</head>
+<body>
+    <h1>text input fields</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Tipos de input</legend>
+            <label for="">text</label><br>
+            <input type="text" placeholder="ingrese su nombre" maxlength="10"><br>
+            <label for="">text</label><br>
+            <input type="text" value="valor predefinido" maxlength="10" size="30"><br>
+            <label for="">Dni</label><br>
+            <input type="text" pattern="[0-9]{8}" maxlength="8" placeholder="digite su dni"><br>
+            <label for="">Edad</label><br>
+            <input type="number" min="10000000"  max="99999999" step="3" title="ingresa solo numeros positivos"><br>
+            <label for="">telefono</label><br>
+            <input type="tel"><br>
+            <label for="">email</label><br>
+            <input type="email"><br>
+            <label for="">contraseña</label><br>
+            <input type="password"><br>
+            <label for="">url</label><br>
+            <input type="url"><br>
+            <label for="">slider</label><br>
+            <input type="range" min="5" max="30" value="15"> <input type="text" size="5"><br>
+            <label for="">archivos</label><br>
+            <input type="file" ><br>
+            <label for="">fecha y hora</label><br>
+            <input type="datetime-local"><br>
+
+            <label for="">busqueda</label><br>
+            <input type="search"><br>
+
+
+
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
